@@ -2,6 +2,13 @@ from database import DatabaseService, Collections, connect_to_mongo
 from bson import ObjectId
 import asyncio
 import logging
+import os
+from dotenv import load_dotenv
+from pathlib import Path
+
+# Load environment variables
+ROOT_DIR = Path(__file__).parent
+load_dotenv(ROOT_DIR / '.env')
 
 logger = logging.getLogger(__name__)
 

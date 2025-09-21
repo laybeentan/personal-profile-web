@@ -253,7 +253,7 @@ async def health_check():
     """Health check endpoint"""
     try:
         # Test database connection
-        profiles = await DatabaseService.get_documents(Collections.PROFILES, limit=1)
+        profiles = await DatabaseService.get_documents(Collections.PROFILES)
         db_status = "connected" if profiles is not None else "disconnected"
         
         return create_response(True, {

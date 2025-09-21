@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the portfolio backend API that I just created for Lay Been Tan. The backend should have the following endpoints working: Profile, Experience, Skills, Projects, Certifications, Statistics, and Health Check endpoints."
+user_problem_statement: "Test the complete Lay Been Tan portfolio website that I built. This is a modern, tech-focused professional portfolio for a Senior Program Manager specializing in vulnerability management in telecommunications. Test all sections: Header Navigation, Hero Section, About Section, Experience Section, Skills Section, Projects Section, Contact Section, and Footer. Focus on navigation, responsive design, interactive elements, contact integration, visual design, content accuracy, performance, and user experience."
 
 backend:
   - task: "Profile Endpoint Implementation"
